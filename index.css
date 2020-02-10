@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8F4DF8;
+}
+#container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+#containerNotes {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#containerNotes > div {
+    max-width: 300px;
+    width: 100%;
+    min-height: 330px;
+    border-radius: 3px;
+    border: none;
+    margin: 15px 5px;
+    font-size: 15px;
+    background-color: white;
+}
